@@ -1,0 +1,27 @@
+{
+// 必须的字段
+  "name": "My Extension",
+  "version": "1.0.0.0",
+  "manifest_version": 2,
+  "description": "A plain text description",
+
+   "content_scripts": [{
+   	 "matches": ["http://*.jiayuan.com/*"],
+   	 "js": ["jquery1.7.2.min.js","contentscript.js"]
+   	}]
+}
+//http://open.chrome.360.cn/extension_dev/content_scripts.html
+
+
+
+
+
+
+
+
+
+
+
+
+
+
